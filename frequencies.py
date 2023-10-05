@@ -1,3 +1,5 @@
+from collections import Counter
+
 """Frequencies function."""
 """ENTER YOUR SOLUTION HERE!"""
 
