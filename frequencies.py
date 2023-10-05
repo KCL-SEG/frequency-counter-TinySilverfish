@@ -2,6 +2,5 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def frequencies(items):
-    frequencies = {}
-    # Your code goes here
-    return frequencies
+	items = [str(x) for x in items]
+	return dict(Counter(items))
